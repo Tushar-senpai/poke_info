@@ -31,22 +31,15 @@ A fun and visually engaging web app that dynamically displays cards of the first
    ```bash
    git clone https://github.com/yourusername/pokemon-card-generator.git
    cd pokemon-card-generator
+   
 Open the project:
 
 Open index.html in your browser
 
 That's it! The cards will load automatically.
 
-📁 Project Structure
-bash
-Copy
-Edit
-pokemon-card-generator/
-│
-├── index.html        # HTML container
-├── style.css         # Basic styles for layout and cards
-└── script.js         # JavaScript logic for fetching and rendering Pokémon
-⚡ How It Works
+
+## ⚡ How It Works
 Fetches data from https://pokeapi.co/api/v2/pokemon/{id} for each Pokémon ID (1–150).
 
 Creates a card with the Pokémon's:
@@ -63,7 +56,8 @@ Applies a background color based on the primary type.
 
 Appends the card to the page.
 
-💡 Improvements You Can Make
+
+## 💡 Improvements You Can Make
 Add search/filter functionality by Pokémon name or type
 
 Implement pagination or lazy loading
